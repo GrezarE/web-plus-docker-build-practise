@@ -10,4 +10,4 @@ COPY src ./
 
 EXPOSE 3032
 
-CMD [docker-entrypoint.sh]
+ENTRYPOINT  ["node", "main.js"]
